@@ -1,0 +1,526 @@
+{
+    "board": [
+        [
+            "bR",
+            null,
+            "bB",
+            null,
+            "bK",
+            "bB",
+            null,
+            "bR"
+        ],
+        [
+            "bP",
+            "bP",
+            "bP",
+            null,
+            null,
+            "bP",
+            "bP",
+            "bP"
+        ],
+        [
+            null,
+            null,
+            "bN",
+            null,
+            null,
+            "bN",
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            "bP",
+            "wP",
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            "wP",
+            null,
+            null,
+            "wK",
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            "wP",
+            "wP",
+            "wP",
+            null,
+            null,
+            null,
+            null,
+            "wP"
+        ],
+        [
+            "wR",
+            "wN",
+            "wB",
+            "bQ",
+            null,
+            "wB",
+            "wN",
+            "wR"
+        ]
+    ],
+    "current_player": "black",
+    "move_history": [
+        {
+            "from_pos": [
+                6,
+                6
+            ],
+            "to_pos": [
+                4,
+                6
+            ],
+            "piece": "wP",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                1,
+                3
+            ],
+            "to_pos": [
+                3,
+                3
+            ],
+            "piece": "bP",
+            "captured_piece": null,
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": [
+                3,
+                6
+            ],
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                6,
+                4
+            ],
+            "to_pos": [
+                4,
+                4
+            ],
+            "piece": "wP",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": [
+                4,
+                3
+            ],
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                0,
+                1
+            ],
+            "to_pos": [
+                2,
+                2
+            ],
+            "piece": "bN",
+            "captured_piece": null,
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": [
+                3,
+                4
+            ],
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                6,
+                3
+            ],
+            "to_pos": [
+                4,
+                3
+            ],
+            "piece": "wP",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                3,
+                3
+            ],
+            "to_pos": [
+                4,
+                4
+            ],
+            "piece": "bP",
+            "captured_piece": "wP",
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": [
+                3,
+                3
+            ],
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                6,
+                5
+            ],
+            "to_pos": [
+                4,
+                5
+            ],
+            "piece": "wP",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                1,
+                4
+            ],
+            "to_pos": [
+                3,
+                4
+            ],
+            "piece": "bP",
+            "captured_piece": null,
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": [
+                3,
+                5
+            ],
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                4,
+                5
+            ],
+            "to_pos": [
+                3,
+                5
+            ],
+            "piece": "wP",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": [
+                4,
+                4
+            ],
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                0,
+                3
+            ],
+            "to_pos": [
+                4,
+                7
+            ],
+            "piece": "bQ",
+            "captured_piece": null,
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                7,
+                4
+            ],
+            "to_pos": [
+                6,
+                4
+            ],
+            "piece": "wK",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": false,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                4,
+                7
+            ],
+            "to_pos": [
+                4,
+                6
+            ],
+            "piece": "bQ",
+            "captured_piece": "wP",
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": true,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                6,
+                4
+            ],
+            "to_pos": [
+                5,
+                4
+            ],
+            "piece": "wK",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": true,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                4,
+                6
+            ],
+            "to_pos": [
+                7,
+                3
+            ],
+            "piece": "bQ",
+            "captured_piece": "wQ",
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": true,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                5,
+                4
+            ],
+            "to_pos": [
+                4,
+                4
+            ],
+            "piece": "wK",
+            "captured_piece": "bP",
+            "player": "white",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": true,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                0,
+                6
+            ],
+            "to_pos": [
+                2,
+                5
+            ],
+            "piece": "bN",
+            "captured_piece": null,
+            "player": "black",
+            "is_castling": false,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": true,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        },
+        {
+            "from_pos": [
+                4,
+                4
+            ],
+            "to_pos": [
+                4,
+                6
+            ],
+            "piece": "wK",
+            "captured_piece": null,
+            "player": "white",
+            "is_castling": true,
+            "is_en_passant": false,
+            "old_en_passant_target": null,
+            "castling_flags_before_move": {
+                "wK": true,
+                "wRa": false,
+                "wRh": false,
+                "bK": false,
+                "bRa": false,
+                "bRh": false
+            }
+        }
+    ],
+    "castling_flags": {
+        "wK": true,
+        "wRa": false,
+        "wRh": false,
+        "bK": false,
+        "bRa": false,
+        "bRh": false
+    },
+    "en_passant_target_square": null,
+    "ai_mode": true,
+    "white_time": 287.6659999999971,
+    "black_time": 299.849,
+    "difficulty": "hard"
+}

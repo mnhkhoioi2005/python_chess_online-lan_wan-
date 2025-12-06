@@ -1,0 +1,4 @@
+pygame
+pyperclip
+requests
+pyodbc
